@@ -1,0 +1,1 @@
+Select count(*) from movies join ratings on ratings.movie_id = movies.id where rating = 10.0;
